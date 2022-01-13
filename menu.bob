@@ -24,7 +24,7 @@
     <actions>
       <action type="open_display">
         <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/screen1.bob</file>
-        <target>tab</target>
+        <target>replace</target>
         <description>Open Screen 1</description>
       </action>
     </actions>
@@ -38,7 +38,7 @@
     <actions>
       <action type="open_display">
         <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/screen2.bob</file>
-        <target>tab</target>
+        <target>replace</target>
         <description>Open Screen 2</description>
       </action>
     </actions>
@@ -52,7 +52,7 @@
     <actions>
       <action type="open_display">
         <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/screen3.bob</file>
-        <target>tab</target>
+        <target>replace</target>
         <description>Open Screen 3</description>
       </action>
     </actions>
