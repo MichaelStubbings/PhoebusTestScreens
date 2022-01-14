@@ -84,6 +84,7 @@
         <macros>
           <BLUE>0</BLUE>
           <GREEN>128</GREEN>
+          <OBJECT>Oranges</OBJECT>
           <ORIGIN>ASIA</ORIGIN>
           <RED>255</RED>
           <SHAPE>Circular</SHAPE>
@@ -108,6 +109,7 @@
         <macros>
           <BLUE>0</BLUE>
           <GREEN>255</GREEN>
+          <OBJECT>Bananas</OBJECT>
           <ORIGIN>AFRICA</ORIGIN>
           <RED>255</RED>
           <SHAPE>Curved</SHAPE>
