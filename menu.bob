@@ -84,7 +84,7 @@
         <macros>
           <COLOUR>Orange</COLOUR>
           <OBJECT>Oranges</OBJECT>
-          <ORIGIN>ASIA</ORIGIN>
+          <ORIGIN>Asia</ORIGIN>
           <SHAPE>Circular</SHAPE>
           <URL>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/macro_test.bob</URL>
           <VITAMINS>C</VITAMINS>
@@ -107,7 +107,7 @@
         <macros>
           <COLOUR>Yellow</COLOUR>
           <OBJECT>Bananas</OBJECT>
-          <ORIGIN>AFRICA</ORIGIN>
+          <ORIGIN>Southeast Asia</ORIGIN>
           <SHAPE>Curved</SHAPE>
           <URL>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/macro_test.bob</URL>
           <VITAMINS>B6</VITAMINS>
