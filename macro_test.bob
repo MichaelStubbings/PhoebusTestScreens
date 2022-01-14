@@ -31,7 +31,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_5</name>
-    <text>Key Vitamins:</text>
+    <text>Key Vitamin(s):</text>
     <y>80</y>
     <width>110</width>
   </widget>
@@ -83,5 +83,18 @@
       </color>
     </background_color>
     <transparent>false</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Back to menu</name>
+    <actions>
+      <action type="open_display">
+        <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/menu.bob</file>
+        <target>replace</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Back</text>
+    <y>180</y>
+    <tooltip>$(actions)</tooltip>
   </widget>
 </display>
