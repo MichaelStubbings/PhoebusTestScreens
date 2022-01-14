@@ -61,4 +61,49 @@
     <y>150</y>
     <tooltip>$(actions)</tooltip>
   </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <actions>
+      <action type="open_display">
+        <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/screen1.bob</file>
+        <target>replace</target>
+        <description>Open Screen 1</description>
+      </action>
+    </actions>
+    <text>Macro Base</text>
+    <x>140</x>
+    <y>50</y>
+    <width>140</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_4</name>
+    <actions>
+      <action type="open_display">
+        <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/screen2.bob</file>
+        <target>replace</target>
+        <description>Open Screen 2</description>
+      </action>
+    </actions>
+    <text>Macro Oranges</text>
+    <x>140</x>
+    <y>100</y>
+    <width>140</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_5</name>
+    <actions>
+      <action type="open_display">
+        <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/screen3.bob</file>
+        <target>replace</target>
+        <description>Open Screen 3</description>
+      </action>
+    </actions>
+    <text>Macro Bananas</text>
+    <x>140</x>
+    <y>150</y>
+    <width>140</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
 </display>
