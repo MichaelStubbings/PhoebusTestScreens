@@ -68,12 +68,12 @@
     <name>Action Button</name>
     <actions>
       <action type="open_display">
-        <file></file>
+        <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/menu.bob</file>
         <target>replace</target>
         <description>Back to menu</description>
       </action>
     </actions>
-    <text>BACK</text>
+    <text>Back</text>
     <y>380</y>
     <tooltip>$(actions)</tooltip>
   </widget>

@@ -128,15 +128,10 @@
       <action type="open_display">
         <file>$(URL)</file>
         <macros>
-          <COLOUR>Yellow</COLOUR>
-          <OBJECT>Bananas</OBJECT>
-          <ORIGIN>Southeast Asia</ORIGIN>
-          <SHAPE>Curved</SHAPE>
-          <URL>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/macro_test.bob</URL>
-          <VITAMINS>B6</VITAMINS>
+          <URL>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/embedded_displays_wmacros.bob</URL>
         </macros>
         <target>replace</target>
-        <description>Open macro display with banana info</description>
+        <description>Open embedded macros display</description>
       </action>
     </actions>
     <text>Macro Embedded</text>
