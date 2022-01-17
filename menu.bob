@@ -126,10 +126,7 @@
     <name>Action Button_6</name>
     <actions>
       <action type="open_display">
-        <file>$(URL)</file>
-        <macros>
-          <URL>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/embedded_displays_wmacros.bob</URL>
-        </macros>
+        <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/embedded_displays_wmacros.bob</file>
         <target>replace</target>
         <description>Open embedded macros display</description>
       </action>
