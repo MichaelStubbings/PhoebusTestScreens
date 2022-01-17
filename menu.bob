@@ -66,7 +66,7 @@
     <actions>
       <action type="open_display">
         <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/macro_test.bob</file>
-        <target>replace</target>
+        <target>tab</target>
         <description>Open macro screen with no properties</description>
       </action>
     </actions>
@@ -89,7 +89,7 @@
           <URL>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/macro_test.bob</URL>
           <VITAMINS>C</VITAMINS>
         </macros>
-        <target>replace</target>
+        <target>tab</target>
         <description>Open macro display with orange info</description>
       </action>
     </actions>
