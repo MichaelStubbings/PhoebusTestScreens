@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <width>1100</width>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>My Display</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>550</width>
+    <height>31</height>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>This page uses the same .bob file with different macros on each embedded display</text>
+    <y>50</y>
+    <width>580</width>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/macro_test.bob</file>
+    <x>10</x>
+    <y>80</y>
+    <width>350</width>
+    <height>280</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <macros>
+      <COLOUR>Orange</COLOUR>
+      <OBJECT>Oranges</OBJECT>
+      <ORIGIN>Asia</ORIGIN>
+      <SHAPE>Spherical</SHAPE>
+      <VITAMINS>C</VITAMINS>
+    </macros>
+    <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/macro_test.bob</file>
+    <x>380</x>
+    <y>80</y>
+    <width>330</width>
+    <height>280</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_3</name>
+    <macros>
+      <COLOUR>Yellow</COLOUR>
+      <OBJECT>Bananas</OBJECT>
+      <ORIGIN>SouthEast Asia</ORIGIN>
+      <SHAPE>Curved</SHAPE>
+      <VITAMINS>B6</VITAMINS>
+    </macros>
+    <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/macro_test.bob</file>
+    <x>720</x>
+    <y>80</y>
+    <width>330</width>
+    <height>280</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <file></file>
+        <target>replace</target>
+        <description>Back to menu</description>
+      </action>
+    </actions>
+    <text>BACK</text>
+    <y>380</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>
