@@ -23,7 +23,7 @@
     <name>Action Button</name>
     <actions>
       <action type="open_display">
-        <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/screen1.bob</file>
+        <file>screen1.bob</file>
         <target>replace</target>
         <description>Open Screen 1</description>
       </action>
@@ -37,7 +37,7 @@
     <name>Action Button_1</name>
     <actions>
       <action type="open_display">
-        <file>https://raw.githubusercontent.com/MichaelStubbings/PhoebusTestScreens/main/screen2.bob</file>
+        <file>screen2.bob</file>
         <target>replace</target>
         <description>Open Screen 2</description>
       </action>
